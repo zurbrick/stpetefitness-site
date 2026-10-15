@@ -9,9 +9,13 @@
 <meta property="og:description" content="A free local guide to gyms, yoga, run clubs, beach workouts and wellness events in St. Petersburg, Florida, plus a free weekly email.">
 <meta property="og:url" content="https://stpetefitness.com/">
 <meta property="og:locale" content="en_US">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="https://stpetefitness.com/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="St. Pete Fitness logo: ST.PETE with a sun as the period">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://stpetefitness.com/og-image.png">
 <meta name="twitter:title" content="St. Pete Fitness: gyms, yoga, run clubs &amp; wellness events in St. Petersburg, FL">
 <meta name="twitter:description" content="A free local guide to gyms, yoga, run clubs, beach workouts and wellness events in St. Petersburg, Florida, plus a free weekly email.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="icon" href="/favicon.png" sizes="32x32" type="image/png"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><meta name="theme-color" content="#13233F">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet">
 <link rel="alternate" type="text/markdown" title="LLM summary" href="https://stpetefitness.com/llms.txt">
 <script type="application/ld+json">
 {
@@ -501,41 +505,51 @@
 </script>
 
 <style>
-:root{--sun:#ffb703;--coral:#fb6f5b;--sea:#0aa5a5;--deep:#05445e;--sand:#fff8ec}
-*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--sand);color:#173042}
-a{color:var(--deep)}.wrap{max-width:1100px;margin:0 auto;padding:0 20px}
-nav{display:flex;justify-content:space-between;align-items:center;padding:16px 20px;max-width:1100px;margin:0 auto}nav b{font-size:20px;color:var(--deep)}nav b span{color:var(--coral)}
-nav a{margin-left:16px;text-decoration:none;font-weight:600;font-size:14px}
-.hero{background:linear-gradient(135deg,var(--sun),var(--coral) 55%,var(--sea));color:#fff;padding:70px 20px 80px;text-align:center}
-.hero h1{font-size:clamp(32px,6vw,58px);margin:0 0 12px;text-shadow:0 2px 8px #0003}.hero p{font-size:19px;max-width:640px;margin:0 auto 24px}
-.cta{display:inline-block;background:#fff;color:var(--deep);padding:13px 24px;border-radius:999px;font-weight:700;text-decoration:none;margin:4px}.cta.ghost{background:transparent;color:#fff;border:2px solid #fff}
-section{padding:50px 0}h2{color:var(--deep);font-size:30px;margin:0 0 8px}.sub{color:#4b6475;margin:0 0 22px}
-.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px}.f{border:2px solid var(--sea);background:#fff;color:var(--deep);padding:8px 14px;border-radius:999px;font-weight:600;cursor:pointer}.f.on{background:var(--sea);color:#fff}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px}
-.card{background:#fff;border-radius:16px;padding:18px;box-shadow:0 4px 14px #05445e14;border-top:5px solid var(--sun)}.card h3{margin:8px 0 4px;font-size:18px}.card p{margin:0 0 12px;color:#4b6475;font-size:14px}.card a{font-weight:700;font-size:14px;color:var(--coral)}
-.tag{font-size:12px;font-weight:700;background:#e6f7f7;color:var(--sea);padding:3px 9px;border-radius:999px}
-.events ul{list-style:none;padding:0;margin:0}.events li{display:flex;gap:16px;align-items:center;background:#fff;border-radius:14px;padding:14px 18px;margin-bottom:10px}.events li>div:nth-child(2){flex:1}
-.date{background:var(--coral);color:#fff;font-weight:800;border-radius:10px;padding:8px 10px;min-width:92px;text-align:center;font-size:14px}
-.trends{background:#e6f7f7}.tgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}.tcard{background:#fff;border-radius:16px;padding:18px;border-left:5px solid var(--sea)}.tcard small{color:var(--coral);font-weight:700}
-.band{background:var(--deep);color:#fff;border-radius:22px;padding:34px;text-align:center}.band h2{color:#fff}
-form{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:14px}input{padding:13px 16px;border-radius:999px;border:0;min-width:260px;font-size:16px}button.s{background:var(--sun);border:0;padding:13px 22px;border-radius:999px;font-weight:800;color:var(--deep);cursor:pointer}
-.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}.box{background:#fff;border-radius:18px;padding:26px;border:2px dashed var(--sun)}
-footer{text-align:center;padding:30px;color:#4b6475;font-size:14px}
-@media(max-width:700px){.two{grid-template-columns:1fr}nav a.hide{display:none}.events li{flex-wrap:wrap}}
+:root{--navy:#13233F;--teal:#0E7C86;--sun:#FFB627;--sand:#FFF4E0;--coral:#F2542D;--mut:#4A5568;--line:#E8D9BC}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font:16px/1.6 "DM Sans",system-ui,sans-serif;background:var(--sand);color:var(--navy)}
+h1,h2,h3{font-family:"Bricolage Grotesque",system-ui,sans-serif;letter-spacing:-.015em;line-height:1.08}
+a{color:var(--teal)}.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:14px 24px;max-width:1120px;margin:0 auto}nav .brand img{height:56px;display:block}
+nav a{margin-left:22px;text-decoration:none;font-weight:600;font-size:15px;color:var(--navy)}nav a:hover{color:var(--coral)}nav a.pill{background:var(--navy);color:var(--sand);padding:9px 16px;border-radius:999px}
+.hero{border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.hero .wrap{display:grid;grid-template-columns:1.3fr .7fr;gap:48px;padding-top:64px;padding-bottom:64px;align-items:end}
+.hero h1{font-size:clamp(44px,7vw,88px);font-weight:800;margin:0 0 18px}.hero h1 span{color:var(--teal)}
+.hero p{font-size:19px;max-width:30em;margin:0 0 26px;color:var(--mut)}
+.cta{display:inline-block;background:var(--navy);color:var(--sand);padding:13px 22px;border-radius:999px;font-weight:700;text-decoration:none;margin:0 8px 8px 0}.cta.ghost{background:transparent;color:var(--navy);border:2px solid var(--navy)}
+.facts{list-style:none;margin:0;padding:0;border-left:3px solid var(--sun)}.facts li{padding:10px 0 10px 20px;font-size:15px;color:var(--mut)}.facts b{display:block;font:800 40px/1 "Bricolage Grotesque",sans-serif;color:var(--navy)}
+section{padding:64px 0}h2{font-size:clamp(30px,4vw,44px);font-weight:800;margin:0 0 8px}.sub{color:var(--mut);margin:0 0 26px}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px}.f{border:1.5px solid var(--navy);background:transparent;color:var(--navy);padding:7px 14px;border-radius:999px;font:600 14px "DM Sans",sans-serif;cursor:pointer}.f.on{background:var(--navy);color:var(--sand)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:0 40px;border-top:2px solid var(--navy)}
+.card{padding:16px 0 18px;border-bottom:1px solid var(--line);display:grid;grid-template-columns:1fr auto;grid-template-areas:"tag a" "h a" "p a";column-gap:12px}
+.card .tag{grid-area:tag}.card h3{grid-area:h;margin:4px 0 2px;font-size:20px;font-weight:600}.card p{grid-area:p;margin:0;color:var(--mut);font-size:14px}
+.card a{grid-area:a;align-self:center;font-weight:700;font-size:13px;color:var(--coral);text-decoration:none;white-space:nowrap}.card a:hover{text-decoration:underline}
+.tag{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--teal)}
+.events{background:var(--navy);color:var(--sand);margin:0 -24px;padding:64px 24px;border-radius:4px}.events h2{color:var(--sand)}.events .sub{color:#b9c2d3}
+.events ul{list-style:none;padding:0;margin:0}.events li{display:grid;grid-template-columns:130px 1fr auto;gap:24px;align-items:center;padding:20px 0;border-top:1px solid #2c3d5e}
+.events small{color:#b9c2d3;font-size:14px}.events b{font-size:18px}.events a{color:var(--sun);font-weight:700}
+.date{font:800 22px/1.1 "Bricolage Grotesque",sans-serif;color:var(--sun)}
+.trends{background:var(--teal);color:#fff}.trends h2,.trends h3{color:#fff}.trends .sub{color:#d4eef0}
+.tgrid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:32px}.tcard{border-top:2px solid #fff;padding-top:14px}.tcard:first-child h3{font-size:30px}.tcard h3{font-size:22px;margin:8px 0}.tcard p{margin:0;color:#e3f4f5}.tcard small{color:var(--sun);font-weight:700;letter-spacing:.1em;font-size:12px}
+.band{background:var(--sun);color:var(--navy);padding:44px;display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:center}.band h2{margin:0 0 6px}.band p{margin:0}
+form{display:flex;gap:8px;flex-wrap:wrap}input{padding:13px 18px;border-radius:999px;border:2px solid var(--navy);flex:1;min-width:220px;font:16px "DM Sans",sans-serif}button.s{background:var(--navy);border:0;padding:13px 22px;border-radius:999px;font:700 16px "DM Sans",sans-serif;color:var(--sand);cursor:pointer}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:0}.box{padding:8px 40px 8px 0}.box+.box{padding:8px 0 8px 40px;border-left:1px solid var(--line)}.box h2{font-size:28px}.box p{color:var(--mut)}
+footer{border-top:1px solid var(--line);padding:30px 24px;color:var(--mut);font-size:14px;text-align:center}
+@media(max-width:760px){.hero .wrap{grid-template-columns:1fr;padding-top:40px;padding-bottom:44px}.facts{display:flex;border-left:0;border-top:3px solid var(--sun)}.facts li{padding:12px 16px 0 0}.facts b{font-size:30px}
+nav a.hide{display:none}nav .brand img{height:46px}.events li{grid-template-columns:1fr;gap:4px}.tgrid,.band,.two{grid-template-columns:1fr}.band{padding:30px 22px}.box,.box+.box{padding:20px 0;border-left:0}.box+.box{border-top:1px solid var(--line)}section{padding:48px 0}}
 </style><style>
-.faqx{margin-top:28px;display:grid;gap:12px;max-width:820px}
-.faqx details{background:#fff;border:1px solid #e6dccb;border-radius:14px;padding:4px 20px}
+.faqx{margin-top:28px;display:grid;gap:0;max-width:820px;border-top:2px solid var(--navy)}
+.faqx details{border-bottom:1px solid var(--line);padding:2px 0}
 .faqx summary{cursor:pointer;list-style:none;padding:16px 0;font-weight:700;display:flex;justify-content:space-between;gap:16px}
 .faqx summary::-webkit-details-marker{display:none}
 .faqx summary::after{content:"+";color:var(--coral);font-size:20px;line-height:1}
 .faqx details[open] summary::after{content:"\2013"}
-.faqx details p{color:#3d5566;padding:0 0 16px}
+.faqx details p{color:var(--mut);padding:0 0 16px;margin:0}
 </style>
 </head><body>
-<nav><b>StPete<span>Fitness</span></b><div><a class="hide" href="#guide">Guide</a><a class="hide" href="#events">Events</a><a class="hide" href="#trends">Trends</a><a href="#email">Weekly email</a></div></nav>
+<nav><a class="brand" href="/" aria-label="St. Pete Fitness home"><img src="logo.svg" alt="St. Pete Fitness" width="127" height="56"></a><div><a class="hide" href="#guide">Guide</a><a class="hide" href="#events">Events</a><a class="hide" href="#trends">Trends</a><a class="pill" href="#email">Weekly email</a></div></nav>
 <main id="main">
-<header class="hero"><h1>Sweat in the Sunshine City</h1><p>The local guide to gyms, yoga, run clubs, beach workouts and wellness events in St. Petersburg, Florida.</p>
-<a class="cta" href="#guide">Explore the guide</a><a class="cta ghost" href="#email">Get the weekly email</a></header>
+<header class="hero"><div class="wrap"><div><h1>Sweat in the <span>Sunshine City</span></h1><p>The local guide to gyms, yoga, run clubs, beach workouts and wellness events in St. Petersburg, Florida.</p>
+<a class="cta" href="#guide">Explore the guide</a><a class="cta ghost" href="#email">Get the weekly email</a></div>
+<ul class="facts"><li><b>20</b>local spots, hand-checked</li><li><b>7</b>categories, CrossFit to climbing</li><li><b>Oct 24</b>next event: Cats and Mats Yoga</li></ul></div></header>
 <div class="wrap">
 <section id="guide"><h2>Find your workout</h2><p class="sub">20 local spots, hand-checked. Tap a category to filter.</p><div class="filters"><button class="f on" data-c="all">All</button><button class="f" data-c="Boutique Studio">Boutique Studio</button><button class="f" data-c="Climbing">Climbing</button><button class="f" data-c="CrossFit">CrossFit</button><button class="f" data-c="Gym &amp; Strength">Gym &amp; Strength</button><button class="f" data-c="Outdoor &amp; Beach">Outdoor &amp; Beach</button><button class="f" data-c="Running">Running</button><button class="f" data-c="Yoga">Yoga</button></div><div class="grid"><article class="card" data-cat="CrossFit"><span class="tag">CrossFit</span><h3>Burg CrossFit</h3><p>Central St. Pete · 1150 19th St N</p><a href="https://www.burgcrossfit.com/" target="_blank" rel="noopener">Visit website →</a></article><article class="card" data-cat="CrossFit"><span class="tag">CrossFit</span><h3>CrossFit9</h3><p>Warehouse Arts District area · 2727 6th Ave S</p><a href="https://crossfit9.com/" target="_blank" rel="noopener">Visit website →</a></article><article class="card" data-cat="CrossFit"><span class="tag">CrossFit</span><h3>Sunshine City CrossFit</h3><p>West St. Pete · 7490 30th Ave N</p><a href="https://sunshinecitycrossfit.com/" target="_blank" rel="noopener">Visit website →</a></article><article class="card" data-cat="CrossFit"><span class="tag">CrossFit</span><h3>CrossFit 727</h3><p>Warehouse Arts District area · 1901 3rd Ave S, B#100</p><a href="https://crossfit727.com/" target="_blank" rel="noopener">Visit website →</a></article><article class="card" data-cat="Gym &amp; Strength"><span class="tag">Gym &amp; Strength</span><h3>Elevate St. Pete</h3><p>North St. Pete · 1150 94th Ave N</p><a href="https://elevatestpete.fit/" target="_blank" rel="noopener">Visit website →</a></article><article class="card" data-cat="Gym &amp; Strength"><span class="tag">Gym &amp; Strength</span><h3>Brickyard Fitness</h3><p>St. Pete area</p><a href="https://www.thebrickyardfitness.com/" target="_blank" rel="noopener">Visit website →</a></article><article class="card" data-cat="Running"><span class="tag">Running</span><h3>Run Unlimited</h3><p>St. Pete</p><a href="https://www.rununlimited.com/" target="_blank" rel="noopener">Visit website →</a></article><article class="card" data-cat="Running"><span class="tag">Running</span><h3>St. Pete Run Club</h3><p>St. Pete</p><a href="https://www.stpeterunclub.com/" target="_blank" rel="noopener">Visit website →</a></article><article class="card" data-cat="Climbing"><span class="tag">Climbing</span><h3>Vertical Ventures</h3><p>Grand Central / Warehouse district · 116 18th St S</p><a href="https://verticalventures.com/" target="_blank" rel="noopener">Visit website →</a></article><article class="card" data-cat="Yoga"><span class="tag">Yoga</span><h3>YogaSix St. Petersburg</h3><p>St. Pete (33704)</p><a href="https://www.yogasix.com/location/st-petersburg" target="_blank" rel="noopener">Visit website →</a></article><article class="card" data-cat="Yoga"><span class="tag">Yoga</span><h3>Beach Town Yoga</h3><p>St. Pete</p><a href="https://beachtownyoga.com/" target="_blank" rel="noopener">Visit website →</a></article><article class="card" data-cat="Yoga"><span class="tag">Yoga</span><h3>The Body Electric Yoga Company</h3><p>Downtown St. Pete</p><a href="https://thebodyelectricyoga.com/" target="_blank" rel="noopener">Visit website →</a></article><article class="card" data-cat="Yoga"><span class="tag">Yoga</span><h3>SukhaLife Yoga Studio</h3><p>St. Pete</p><a href="https://www.sukhalifeyoga.com/" target="_blank" rel="noopener">Visit website →</a></article><article class="card" data-cat="Yoga"><span class="tag">Yoga</span><h3>SunState Yoga</h3><p>St. Pete</p><a href="https://www.sunstateyoga.com/" target="_blank" rel="noopener">Visit website →</a></article><article class="card" data-cat="Yoga"><span class="tag">Yoga</span><h3>Salty Souls Yoga</h3><p>West St. Pete (33710)</p><a href="https://saltysoulsyoga.com/" target="_blank" rel="noopener">Visit website →</a></article><article class="card" data-cat="Boutique Studio"><span class="tag">Boutique Studio</span><h3>Pure Barre St. Petersburg</h3><p>St. Pete (33704)</p><a href="https://www.purebarre.com/location/st-petersburg-fl" target="_blank" rel="noopener">Visit website →</a></article><article class="card" data-cat="Boutique Studio"><span class="tag">Boutique Studio</span><h3>Central Cycling</h3><p>St. Pete</p><a href="https://www.centralcycling.com/" target="_blank" rel="noopener">Visit website →</a></article><article class="card" data-cat="Outdoor &amp; Beach"><span class="tag">Outdoor &amp; Beach</span><h3>Boyd Hill Nature Preserve</h3><p>South St. Pete / Lake Maggiore · 1101 Country Club Way S</p><a href="https://www.stpeteparksrec.org/parks___facilities/boyd_hill.php" target="_blank" rel="noopener">Visit website →</a></article><article class="card" data-cat="Outdoor &amp; Beach"><span class="tag">Outdoor &amp; Beach</span><h3>Fort De Soto Park</h3><p>Tierra Verde · 3500 Pinellas Bayway S</p><a href="https://pinellas.gov/parks/fort-de-soto-park/" target="_blank" rel="noopener">Visit website →</a></article><article class="card" data-cat="Gym &amp; Strength"><span class="tag">Gym &amp; Strength</span><h3>YMCA of Greater St. Petersburg</h3><p>Multiple locations</p><a href="https://www.stpeteymca.org/" target="_blank" rel="noopener">Visit website →</a></article></div></section>
 <section id="events" class="events"><h2>Wellness events this month</h2><p class="sub">Real upcoming St. Pete events, refreshed weekly. Always confirm with the organizer.</p><ul><li><div class="date">Sat Oct 24</div><div><b>Cats and Mats Yoga</b><br><small>10–11 AM · Friends of Strays Cat Box, 3015 46th Ave N · $25</small></div><a href="https://www.friendsofstrays.org/events,cats-and-mats-yoga-october-24th" target="_blank" rel="noopener">Details</a></li><li><div class="date">Sun Oct 25</div><div><b>The Pause Wellness Social (run club, yoga, Pilates)</b><br><small>9 AM–12 PM · Urban Stillhouse, 2232 5th Ave S · see listing</small></div><a href="https://www.eventbrite.com/e/the-pause-wellness-social-st-pete-tickets-2003207746294" target="_blank" rel="noopener">Details</a></li><li><div class="date">Sat Oct 31</div><div><b>Free Barre with Freebird Fitness</b><br><small>8:30 AM · St. Pete Pier – Family Park · Free</small></div><a href="https://stpetepier.org/event/barre-with-freebird-fitness-2-2/2026-10-31/" target="_blank" rel="noopener">Details</a></li></ul></section>
@@ -555,11 +569,11 @@ footer{text-align:center;padding:30px;color:#4b6475;font-size:14px}
     <details><summary>How do I advertise or sponsor?</summary><p>You can sponsor the weekly email or a spot on the guide. Email hello@zye.ai to ask about sponsorship.</p></details>
   </div>
 </section>
-<section id="email"><div class="band"><h2>What's on in St. Pete fitness</h2><p>One free email every week: new classes, events, run routes and local deals.</p>
+<section id="email"><div class="band"><div><h2>What's on in St. Pete fitness</h2><p>One free email every week: new classes, events, run routes and local deals.</p></div>
 <!-- TODO: wire to beehiiv (or chosen provider) before launch -->
-<form action="#" method="post" onsubmit="return false"><input type="email" placeholder="you@email.com" required><button class="s" type="submit">Subscribe free</button></form></div></section>
-<section><div class="two"><div class="box"><h2>Own a gym or studio?</h2><p>Get listed free, or get featured at the top of your category.</p><!-- TODO: link Tally listing form --><a class="cta" style="background:var(--coral);color:#fff" href="#">Add your gym</a></div>
-<div class="box"><h2>Advertise with us</h2><p>Sponsor the weekly email or a spot on the guide and reach active locals.</p><!-- TODO: sponsor inquiry form --><a class="cta" style="background:var(--sea);color:#fff" href="mailto:hello@zye.ai?subject=St.%20Pete%20Fitness%20sponsorship">Ask about sponsorship</a></div></div></section>
+<form action="#" method="post" onsubmit="return false"><input type="email" placeholder="you@email.com" aria-label="Email" required><button class="s" type="submit">Subscribe free</button></form></div></section>
+<section><div class="two"><div class="box"><h2>Own a gym or studio?</h2><p>Get listed free, or get featured at the top of your category.</p><!-- TODO: link Tally listing form --><a class="cta" style="background:var(--coral)" href="#">Add your gym</a></div>
+<div class="box"><h2>Advertise with us</h2><p>Sponsor the weekly email or a spot on the guide and reach active locals.</p><!-- TODO: sponsor inquiry form --><a class="cta" style="background:var(--teal)" href="mailto:hello@zye.ai?subject=St.%20Pete%20Fitness%20sponsorship">Ask about sponsorship</a></div></div></section>
 </div>
 </main>
 <footer>Questions? <a href="mailto:hello@zye.ai">hello@zye.ai</a> · Powered by <a href="https://zye.ai">Zye.AI</a><br>Listings are informational; confirm hours and prices with each business.</footer>
