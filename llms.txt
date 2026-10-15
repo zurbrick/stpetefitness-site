@@ -1,0 +1,38 @@
+# St. Pete Fitness
+
+> A free local guide to gyms, yoga, run clubs, beach workouts and wellness events in St. Petersburg, Florida, with a free weekly email. Powered by Zye.AI.
+
+## Listings
+- [Burg CrossFit](https://www.burgcrossfit.com/): CrossFit, Central St. Pete (1150 19th St N)
+- [CrossFit9](https://crossfit9.com/): CrossFit, Warehouse Arts District area (2727 6th Ave S)
+- [Sunshine City CrossFit](https://sunshinecitycrossfit.com/): CrossFit, West St. Pete (7490 30th Ave N)
+- [CrossFit 727](https://crossfit727.com/): CrossFit, Warehouse Arts District area (1901 3rd Ave S, B#100)
+- [Elevate St. Pete](https://elevatestpete.fit/): Gym & Strength, North St. Pete (1150 94th Ave N)
+- [Brickyard Fitness](https://www.thebrickyardfitness.com/): Gym & Strength, St. Pete area
+- [Run Unlimited](https://www.rununlimited.com/): Running, St. Pete
+- [St. Pete Run Club](https://www.stpeterunclub.com/): Running, St. Pete
+- [Vertical Ventures](https://verticalventures.com/): Climbing, Grand Central / Warehouse district (116 18th St S)
+- [YogaSix St. Petersburg](https://www.yogasix.com/location/st-petersburg): Yoga, St. Pete (33704)
+- [Beach Town Yoga](https://beachtownyoga.com/): Yoga, St. Pete
+- [The Body Electric Yoga Company](https://thebodyelectricyoga.com/): Yoga, Downtown St. Pete
+- [SukhaLife Yoga Studio](https://www.sukhalifeyoga.com/): Yoga, St. Pete
+- [SunState Yoga](https://www.sunstateyoga.com/): Yoga, St. Pete
+- [Salty Souls Yoga](https://saltysoulsyoga.com/): Yoga, West St. Pete (33710)
+- [Pure Barre St. Petersburg](https://www.purebarre.com/location/st-petersburg-fl): Boutique Studio, St. Pete (33704)
+- [Central Cycling](https://www.centralcycling.com/): Boutique Studio, St. Pete
+- [Boyd Hill Nature Preserve](https://www.stpeteparksrec.org/parks___facilities/boyd_hill.php): Outdoor & Beach, South St. Pete / Lake Maggiore (1101 Country Club Way S)
+- [Fort De Soto Park](https://pinellas.gov/parks/fort-de-soto-park/): Outdoor & Beach, Tierra Verde (3500 Pinellas Bayway S)
+- [YMCA of Greater St. Petersburg](https://www.stpeteymca.org/): Gym & Strength, Multiple locations
+
+## Upcoming wellness events
+- 2026-10-24, 10–11 AM: [Cats and Mats Yoga](https://www.friendsofstrays.org/events,cats-and-mats-yoga-october-24th) at Friends of Strays Cat Box, 3015 46th Ave N ($25)
+- 2026-10-25, 9 AM–12 PM: [The Pause Wellness Social (run club, yoga, Pilates)](https://www.eventbrite.com/e/the-pause-wellness-social-st-pete-tickets-2003207746294) at Urban Stillhouse, 2232 5th Ave S (see listing)
+- 2026-10-31, 8:30 AM: [Free Barre with Freebird Fitness](https://stpetepier.org/event/barre-with-freebird-fitness-2-2/2026-10-31/) at St. Pete Pier – Family Park (Free)
+
+Listings are informational; confirm hours and prices with each business.
+
+## Key links
+- [Guide](https://stpetefitness.com/#guide)
+- [Events](https://stpetefitness.com/#events)
+- [FAQ](https://stpetefitness.com/#faq)
+- Sponsorship and contact: hello@zye.ai
